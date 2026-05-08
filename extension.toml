@@ -1,0 +1,11 @@
+id = "hoon"
+name = "Hoon"
+description = "Hoon language support (syntax highlighting, brackets, comments)."
+version = "0.1.0"
+schema_version = 1
+authors = ["TisaneFruitRouge"]
+repository = "https://github.com/TisaneFruitRouge/hoon-zed"
+
+[grammars.hoon]
+repository = "https://github.com/urbit-pilled/tree-sitter-hoon"
+commit = "1545137aadcc63660c47db9ad98d02fa602655d0"
